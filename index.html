@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de Heróis</title>
+
+    <link rel="stylesheet" href="./src/css/main.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./assets/image/dio.webp" alt="Dio.me Logo">
+        <h1>Desafio Dio.me: Classificador de Heróis</h1>
+    </header>
+    <main>
+        <div id="Desafio">
+            <h2>Classificador de Heróis</h2>
+            <form id="Forms">
+                <label for="nome_heroi">Nome do Herói:</label>
+                <input type="text" name="nome_heroi" id="nome_heroi" required/>
+                <label for="experience">Exp:</label>
+                <input type="number" name="experience" id="experience" required />
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="resultado"></p>
+        </div>
+    </main>
+    <footer>
+        <h5>
+            @ Desenvolvido Por <a href="https://github.com/EduardoBragaT">Eduardo Braga</a> - Desafio <a
+                href="https://dio.me">Dio.me</a>
+        </h5>
+    </footer>
+
+    <script defer src="./src/scripts/main.js"></script>
+</body>
+
+</html>
